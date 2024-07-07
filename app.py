@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # For Form
 
-app.config['SECREY_KEY']='InTheNameofGoddd'
+app.config['SECREY_KEY']='ZAZA1234567890807022393'
 
 # For DB
 
@@ -36,7 +36,7 @@ def store():
     if request.method == "POST":
         flower_name = request.form['flower_name']
         lat_num = request.form['lat_num']
-        long_num = request.form['long_num']
+        long_name = request.form['long_name']
         place = request.form['place']
         detail = request.form['detail']
         print(flower_name, lat_num, long_num, place, detail)
